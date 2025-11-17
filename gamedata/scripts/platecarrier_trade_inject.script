@@ -1,0 +1,94 @@
+local trade_table = {
+
+	["bandit"] = {
+		[1] = { ["zona_carryplate1"] = 1 },
+		[2] = { ["zona_carryplate1"] = 1, ["zona_carryplate2"] = 1 },
+		[3] = { ["zona_carryplate2"] = 1 },
+	},
+
+	["stalker"] = {
+		[1] = { ["zona_carryplate1"] = 1 },
+		[2] = { ["zona_carryplate1"] = 1, ["zona_carryplate2"] = 1 },
+		[3] = { ["zona_carryplate2"] = 1, ["zona_carryplate3"] = 1 },
+	},
+
+	["dolg"] = {
+		[1] = { ["zona_carryplate2"] = 1 },
+		[2] = { ["zona_carryplate2"] = 1, ["zona_carryplate3"] = 1 },
+		[3] = { ["zona_carryplate3"] = 1, ["zona_carryplate4"] = 1 },
+	},
+
+	["freedom"] = {
+		[1] = { ["zona_carryplate2"] = 1 },
+		[2] = { ["zona_carryplate2"] = 1, ["zona_carryplate3"] = 1 },
+		[3] = { ["zona_carryplate3"] = 1, ["zona_carryplate4"] = 1 },
+	},
+
+	["killer"] = { -- Mercenaries
+		[1] = { ["zona_carryplate2"] = 1 },
+		[2] = { ["zona_carryplate3"] = 1 },
+		[3] = { ["zona_carryplate3"] = 1, ["zona_carryplate4"] = 1 },
+	},
+
+	["army"] = {
+		[1] = { ["zona_carryplate2"] = 1 },
+		[2] = { ["zona_carryplate3"] = 1 },
+		[3] = { ["zona_carryplate3"] = 1, ["zona_carryplate4"] = 1 },
+	},
+
+	["monolith"] = {
+		[1] = { ["zona_carryplate3"] = 1 },
+		[2] = { ["zona_carryplate4"] = 1 },
+		[3] = { ["zona_carryplate5"] = 1 },
+	},
+
+	["isg"] = {
+		[1] = { ["zona_carryplate3"] = 1 },
+		[2] = { ["zona_carryplate4"] = 1 },
+		[3] = { ["zona_carryplate5"] = 1 },
+	},
+
+	["greh"] = {
+		[1] = { ["zona_carryplate2"] = 1 },
+		[2] = { ["zona_carryplate3"] = 1 },
+		[3] = { ["zona_carryplate4"] = 1 },
+	},
+
+	["ecolog"] = {
+		[1] = { ["zona_carryplate1"] = 1 },
+		[2] = { ["zona_carryplate1"] = 1, ["zona_carryplate2"] = 1 },
+		[3] = { ["zona_carryplate2"] = 1 },
+	},
+
+	["csky"] = {
+		[1] = { ["zona_carryplate1"] = 1 },
+		[2] = { ["zona_carryplate2"] = 1 },
+		[3] = { ["zona_carryplate3"] = 1 },
+	},
+
+	["renegade"] = {
+		[1] = { ["zona_carryplate1"] = 1 },
+		[2] = { ["zona_carryplate1"] = 1, ["zona_carryplate2"] = 1 },
+		[3] = { ["zona_carryplate2"] = 1 },
+	},
+}
+
+
+function spawn_platecarriers(npc)
+	local is_supplier = trader_autoinject.get_trader_type(npc) == trader_autoinject.SUPPLIER
+	if is_supplier then
+		local community = npc:character_community() or "stalker"
+		local trader_table = trade_table[community] or trade_table["stalker"]
+		local supply_level = clamp(trader_autoinject.supply_level(npc, true) or 1, 1, 3)
+
+		if trader_table[supply_level] then
+			trader_autoinject.spawn_items(npc, trader_table[supply_level], true)
+		end
+	end
+end
+
+TraderAuto = trader_autoinject.update
+function trader_autoinject.update(npc)
+	TraderAuto(npc)
+	spawn_platecarriers(npc)
+end
