@@ -1,1 +1,175 @@
+<?xml version="1.0" encoding="windows-1251"?>
 
+<string_table>
+	<string id="st_azimut_zhuk_name">
+		<text>Stalker Plate Carrier</text>
+	</string>
+	<string id="st_azimut_zhuk_descr">
+				<text>
+    An Azimut “Zhuk” chest harness, a favored rig among stalkers who prioritize mobility and quick access over heavy armor. Originally intended for light infantry and special units operating in fast-paced environments, the Zhuk is built around a simple principle: carry what you need, keep it tight, and stay fast.
+    
+    Its lightweight fabric, reinforced seams, and efficient pouch layout make it perfect for long scouting runs, artifact hunts, and ambush-oriented combat. Without the burden of armor plates, the harness moves naturally with the wearer, allowing split-second reactions that can mean the difference between slipping past a mutant—or becoming lunch.
+    
+    The Zhuk isn’t about surviving a direct hit. It’s about making sure you’re never where the bullet lands in the first place.
+    
+    %c[ui_gray_3]CHARACTERISTICS:\n
+    %c[d_blue] • %c[ui_gray_2] Light Infantry / Recon Use\n
+    %c[d_blue] • %c[ui_gray_2] Can't use Armor Plates.\n
+    %c[d_blue] • %c[ui_gray_2] Increased Mobility & Load Access\n
+    %c[0,100,255,150] • %c[ui_gray_2] Fast, Lightweight, High-Agility Rig\n
+    </text>
+
+	</string>
+
+	<string id="st_ana_m2_carrier_emr_name">
+		<text>Military Carrier Plate</text>
+	</string>
+	<string id="st_ana_m2_carrier_emr_descr">
+                <text>
+			A second-generation ANA M2 Carrier finished in EMR camouflage, commonly seen on experienced paramilitary groups operating at the fringes of the Zone. Unlike the improvised rigs most rookies scavenge together, the M2 is purpose-built—rigid, stable, and designed to hold armor plates with exceptional security even under constant movement.
+			
+			Its EMR patterning provides decent concealment across woodland, ruins, and overgrown industrial sites, making it a favorite for stalkers who prefer to stay unseen until it’s too late for their targets. While heavier than lighter civilian carriers, the M2 makes up for it with superior plate retention, improved impact distribution, and a noticeably more “professional” feel that seasoned operators immediately recognize.
+			
+			Reliable, sturdy, and battlefield-tested, the ANA M2 stands as a midpoint between military-grade carriers and elite tactical rigs—tough enough for firefights, manageable enough for long expeditions, and trusted by those who know the Zone won’t forgive a bad vest.
+			
+			%c[ui_gray_3]CHARACTERISTICS:\n
+			%c[d_blue] • %c[ui_gray_2] Military / Paramilitary Use\n
+			%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+			%c[0,100,255,150] • %c[ui_gray_2] Reliable Mid-Weight Combat Carrier\n
+			</text>
+	</string>
+	
+	<string id="st_cqc_osprey_mk4a_mtp_name">
+		<text>Duty Carrier Plate</text>
+	</string>
+	<string id="st_cqc_osprey_mk4a_mtp_descr">
+			<text>
+			A British-issued Osprey Mk4A in MTP camouflage—one of the more robust combat carriers to make its way into the Zone. Originally designed for frontline infantry, this rig is built around a durable, compartmentalized armor system that offers dependable ballistic coverage without sacrificing too much mobility.
+			
+			Its modular layout allows stalkers to adapt the vest to nearly any mission profile: ammunition, medical kits, tools, detectors—everything finds its place with surprising efficiency. The MTP pattern blends well with the overgrown outskirts and derelict concrete structures alike, giving operators a subtle edge when moving through contested areas.
+			
+			Though heavier than many commercially available carriers, the Mk4A’s improved protection and stable plate fit make it a trusted choice for squads expecting serious resistance. Among veteran stalkers, it has earned a reputation as a “proper soldier’s vest”—the kind you wear when you’re planning to come back alive.
+			
+			%c[ui_gray_3]CHARACTERISTICS:\n
+			%c[d_blue] • %c[ui_gray_2] Military-Grade Combat Use\n
+			%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+			%c[0,100,255,150] • %c[ui_gray_2] Heavy, Reliable, Mission-Focused Carrier\n
+			</text>
+	</string>
+	
+	<string id="st_cyre_avs_tagilla_name">
+		<text>Merc Carrier Plate</text>
+	</string>
+	<string id="st_cyre_avs_tagilla_descr">
+		<text>
+		A heavily modified Crye AVS rig, customized in the brutal workshop style made infamous by “Tagilla”—the kind of improvised industrial flair only a madman with a sledgehammer and too much free time could dream up. While the AVS itself is a high-end modular system prized by elite operators, this particular variant has been reforged into something far more intimidating.
+		
+		Extra plating, reinforced stitching, and crude but effective metalwork give the vest an aggressive silhouette. It’s heavier than a standard AVS, less forgiving on long treks, and downright uncomfortable for anyone not used to hauling half a scrapyard on their torso. But those who endure it are rewarded with remarkable stopping power and shock absorption, making it a terrifying choice for close-quarters fighters who expect to breach first and ask questions never.
+		
+		Among stalkers, this rig has a reputation for being worn by individuals who aren’t afraid to get close—too close. If you see someone lumbering out of the smoke with one of these on, it’s already too late.
+		
+		%c[ui_gray_3]CHARACTERISTICS:\n
+		%c[d_blue] • %c[ui_gray_2] Heavy Assault / CQC Use\n
+		%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+		%c[0,100,255,150] • %c[ui_gray_2] Brutal, Close-Range Focused Rig\n
+		</text>
+	</string>
+
+	<string id="st_eagle_mmac_carrier_name">
+		<text>Monolith Anti Shock Carrier Plate</text>
+	</string>
+	<string id="st_eagle_mmac_carrier_descr">
+				<text>
+		A high-grade Eagle Industries MMAC carrier, the kind once reserved for special operations units before the Zone turned such gear into coveted relics of a more orderly world. Built to handle extreme environments and relentless movement, the MMAC’s frame offers exceptional stability without sacrificing the modularity stalkers depend on.
+		
+		Its rugged construction, reinforced stitching, and efficient weight distribution make it a favorite among seasoned operators who refuse to gamble with unreliable equipment. Whether loaded with heavy plates or configured for long expeditions, the MMAC keeps its integrity even after repeated exposure to the Zone’s punishing conditions.
+		
+		Among veteran stalkers, it’s known as a carrier that won’t quit—even when everything else around them does.
+		
+		%c[ui_gray_3]CHARACTERISTICS:\n
+		%c[d_blue] • %c[ui_gray_2] Professional Tactical Use\n
+		%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+		%c[0,100,255,150] • %c[ui_gray_2] Stable, Durable, High-Performance Carrier\n
+		</text>
+	</string>
+
+</string_table>
+
+
+	<string id="st_zona_rbavaf_name">
+		<text>Monolith Anti Shock Carrier Plate</text>
+	</string>
+	<string id="st_zona_rbavaf_descr">
+				<text>
+		A rare Eclipse RBAV-AF carrier — a refined, mission-ready vest built for operators who demand both mobility and uncompromising protection. In the Zone, pieces of this caliber usually come from private contractors, black-budget units, or the unlucky souls who underestimated what lurks beyond the perimeter.
+		
+		The RBAV-AF’s lightweight composite structure allows for excellent maneuverability while still providing a solid, dependable platform for armor plates and modular gear. Its ergonomic cut and reinforced seams help it withstand long patrols, sudden firefights, and the general abuse the Zone happily dishes out.
+		
+		Stalkers who get their hands on one quickly learn why it’s so sought after: it’s the kind of carrier that feels like it was designed to keep you alive when the situation goes bad — and in the Zone, that’s most of the time.
+		
+		%c[ui_gray_3]CHARACTERISTICS:\n
+		%c[d_blue] • %c[ui_gray_2] Professional / Contractor Use\n
+		%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+		%c[0,100,255,150] • %c[ui_gray_2] Lightweight, High-Mobility Combat Rig\n
+		</text>
+	</string>
+</string_table>
+
+
+	<string id="st_zona_stichprofi_name">
+		<text>Monolith Anti Shock Carrier Plate</text>
+	</string>
+	<string id="st_zona_stichprofi_descr">
+				<text>
+		A rugged Stich Profi carrier, built by a workshop known for producing dependable gear favored by both law enforcement and private security long before the Zone became what it is today. While not as flashy or as lightweight as some high-end Western rigs, this carrier earns its respect through sheer reliability and straightforward, no-nonsense construction.
+		
+		Made from durable Russian synthetics and reinforced stitching, the vest holds up impressively against moisture, abrasion, and the general punishment of daily stalker life. Its layout is practical and familiar, offering enough modularity to adapt to most missions without overcomplicating things.
+		
+		For many stalkers, the Stich Profi line represents a trusted middle ground—solid protection, proven design, and a reputation for surviving situations that should’ve torn lesser carriers apart.
+		
+		%c[ui_gray_3]CHARACTERISTICS:\n
+		%c[d_blue] • %c[ui_gray_2] Law Enforcement / Security Use\n
+		%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+		%c[0,100,255,150] • %c[ui_gray_2] Durable, Reliable, Field-Proven Carrier\n
+		</text>
+	</string>
+</string_table>
+
+
+	<string id="st_zona_ttsk_name">
+		<text>Monolith Anti Shock Carrier Plate</text>
+	</string>
+	<string id="st_zona_ttsk_descr">
+		<text>
+		A Tasmanian Tiger SK carrier—favored by disciplined stalkers who value clean, efficient design over bulky overengineering. Originally crafted for professional tactical users, the SK line is known for its balanced mix of comfort, modularity, and long-term durability, making it a dependable choice for long expeditions into the Zone’s harsher regions.
+		
+		Its streamlined construction allows for quick movement and reduced snagging in confined spaces, while the reinforced fabric handles grime, mud, and radiation-laced moisture with surprising resilience. The SK carrier doesn’t try to be flashy or intimidating; instead, it quietly excels at doing exactly what a good vest should—stay secure, stay stable, and keep you alive.
+		
+		Among experienced stalkers, it’s seen as a practical, trustworthy workhorse: not the heaviest, not the lightest, but always ready to shoulder whatever the Zone throws at it.
+		
+		%c[ui_gray_3]CHARACTERISTICS:\n
+		%c[d_blue] • %c[ui_gray_2] Professional Tactical Use\n
+		%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+		%c[0,100,255,150] • %c[ui_gray_2] Balanced, Durable, Field-Optimized Carrier\n
+		</text>
+	</string>
+</string_table>
+
+	<string id="st_zona_tv110_name">
+		<text>Monolith Anti Shock Carrier Plate</text>
+	</string>
+	<string id="st_zona_tv110_descr">
+		<text>
+		A Wartech TV-110 carrier—an unmistakably rugged, Russian-made rig built for those who expect their gear to endure constant abuse. Designed with practicality in mind, the TV-110 combines sturdy materials with a generous modular layout, making it a reliable foundation for stalkers who carry more equipment than they probably should.
+		
+		Its reinforced construction shrugs off rough terrain, thick brush, rusted metal, and the general chaos of the Zone. While slightly bulkier than some Western designs, the robustness is worth the weight, offering excellent stability even when fully loaded with pouches, tools, and heavy armor plates.
+		
+		Among stalkers, the TV-110 is seen as a dependable workhorse—simple, solid, and ready for long outings where failure simply isn’t an option.
+		
+		%c[ui_gray_3]CHARACTERISTICS:\n
+		%c[d_blue] • %c[ui_gray_2] Military / Field Use\n
+		%c[d_blue] • %c[ui_gray_2] Can use Armor Plates.\n
+		%c[0,100,255,150] • %c[ui_gray_2] Robust, Load-Friendly Combat Carrier\n
+		</text>
+	</string>
+</string_table>
